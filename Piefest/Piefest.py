@@ -6,8 +6,9 @@ print("4. Remove a Band by Name")
 print("5. Move Band to Specific Position") # New Feature!
 print("6. Exit")
 
-
+choice = input("Select an option (1-6): ")
+i = ("Code Play", "Indie", 30),("The Pythonistas", "Rock", 45), ("Syntax Error", "Metal", 60)
+current_index = i
 if choice == "1":
-    total_time = 0
-    duration = int(input("Enter performance duration (minutes): "))
-
+    lineup = i
+    print("\n--- Current Lineup ---")
